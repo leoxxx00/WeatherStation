@@ -1,19 +1,12 @@
 # Raspberry Pi DHT22/DHT11 Weather Station 
-A DHT22/DHT11 Weather Station project using Python, Flask, Flask-SocketIO, and Bootstrap that displays real-time temperature and humidity sensor readings of your multiple sensors using only your Raspberry Pi
+A DHT22/DHT11 Weather Station project using Python, Flask, Flask-SocketIO, and Bootstrap that displays real-time temperature and humidity sensor readings of your multiple sensors on Raspberry Pi
   
-## Writeup
-https://www.donskytech.com/raspberry-pi-weather-station/
   
-
-![Sample Web View](https://github.com/donskytech/dht22-weather-station-python-flask-socketio-multiple-sensors/assets/69466026/649ef360-7f5c-4983-a5e1-af7a177cdbf8)
-![Mobile Top](https://github.com/donskytech/dht22-weather-station-python-flask-socketio-multiple-sensors/assets/69466026/75d604b5-0c10-4f32-9106-6bc1e349173c)
-![Mobile Graph](https://github.com/donskytech/dht22-weather-station-python-flask-socketio-multiple-sensors/assets/69466026/d95668d6-e2e7-4be7-bfb9-b8aeb5b9bf66)
-
 ## Steps on how to run on Raspberry Pi
 1. Clone the repository
 ```
-git clone https://github.com/donskytech/dht22-weather-station-python-flask-socketio-multiple-sensors
-cd dht22-weather-station-python-flask-socketio-multiple-sensors
+git clone https://github.com/leoxxx00/WeatherStation.git
+cd WeatherStation.git
 ```
 2. Create a Python virtual environment
 ```
@@ -47,7 +40,7 @@ dht22_module_6 = DHT22Module(3, board.D22)
 dht_modules = [dht22_module_1, dht22_module_2, dht22_module_3, dht22_module_4, dht22_module_5, dht22_module_6]
 ```
 This would add 3 more additional sensor on your web application  
-![Raspberry Pi Weather Station - Multiple Additional Sensors](https://github.com/donskytech/dht22-weather-station-python-flask-socketio-multiple-sensors/assets/69466026/178dd7b6-92c0-4bf7-b08b-d8e92d8490f0)  
+
   
-### How to auto-start this project when your Raspberry Pi boots or starts?  
+### To auto-start this project  
 https://www.donskytech.com/raspberry-pi-how-to-start-python-script-on-boot/

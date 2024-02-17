@@ -19,7 +19,7 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Weather Station</a>
+            <a class="navbar-brand" href="#">Weather Station🚉</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -59,14 +59,14 @@
         <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
             <div class="row">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom border-danger">
-                    <h1 class="h2 text-danger">Weather Station Dashboard</h1>
+                    <h1 class="h2 text-danger">☔️❄️Weather Station Dashboard🌤️⛈️</h1>
                 </div>
             </div>
             <div class="row">
                 {%for dht in dht_modules%}
                 <div class="col">
                     <div class="readings align-items-center justify-content-center border rounded-2 p-4">
-                        <h3>DHT22/DHT11 #{{dht.get_id()}}</h3>
+                        <h3>DHT module #{{dht.get_id()}}</h3>
                         <div class="box d-flex rounded-3 p-2 shadow align-items-center justify-content-center">
                             <div class="right-side">
                                 <div class="box-topic">Temperature</div>

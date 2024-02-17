@@ -6,7 +6,7 @@ A DHT22/DHT11 Weather Station project using Python, Flask, Flask-SocketIO, and B
 1. Clone the repository
 ```
 git clone https://github.com/leoxxx00/WeatherStation.git
-cd WeatherStation.git
+cd WeatherStation/
 ```
 2. Create a Python virtual environment
 ```

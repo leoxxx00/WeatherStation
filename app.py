@@ -6,11 +6,10 @@ from dht22_module import DHT22Module
 import board
 import adafruit_dht
 
-dht22_module_1 = DHT22Module(1, board.D2)
 dht22_module_2 = DHT22Module(2, board.D3, adafruit_dht.DHT11)
-dht22_module_3 = DHT22Module(3, board.D4)
 
-dht_modules = [dht22_module_1, dht22_module_2, dht22_module_3]
+
+dht_modules =  dht22_module_2
 
 thread = None
 thread_lock = Lock()

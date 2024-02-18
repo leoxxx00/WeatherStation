@@ -5,6 +5,7 @@ from threading import Lock
 from flask_cors import CORS  # Import the CORS extension
 import board
 import adafruit_dht
+from dht22_module import DHT22Module
 
 dht22_module_1 = DHT22Module(1, board.D2)
 dht22_module_2 = DHT22Module(2, board.D3, adafruit_dht.DHT11)

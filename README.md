@@ -44,3 +44,12 @@ This would add 3 more additional sensor on your web application
   
 ### To auto-start this project  
 https://www.donskytech.com/raspberry-pi-how-to-start-python-script-on-boot/
+
+##To make this project remote 
+go to there- https://app.remote.it
+register your pi inside Raspberry pi by copy paste on the terminal
+go to SSH and type in pi's local IP on the service host and the port number in the service port
+give any name you like on the service name
+Next, go to remote.it and connect the host on the connections
+copy the PUBLIC ENDPOINT and enjoy
+if lost, follow 9:56 on this https://youtu.be/i9mJzdLYsVo?si=gZNnWt0LrpoSxjl-

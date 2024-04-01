@@ -40,12 +40,12 @@ dht22_module_6 = DHT22Module(3, board.D22)
 dht_modules = [dht22_module_1, dht22_module_2, dht22_module_3, dht22_module_4, dht22_module_5, dht22_module_6]
 ```
 This would add 3 more additional sensor on your web application  
-
+```
 ###also pip install flask-cors on resberry pi
-  
+```
 ### To auto-start this project  
 https://www.donskytech.com/raspberry-pi-how-to-start-python-script-on-boot/
-
+```
 ##To make this project remote 
 go to there- https://app.remote.it
 register your pi inside Raspberry pi by copy paste on the terminal
@@ -54,3 +54,6 @@ give any name you like on the service name
 Next, go to remote.it and connect the host on the connections
 copy the PUBLIC ENDPOINT and enjoy
 if lost, follow 9:56 on this https://youtu.be/i9mJzdLYsVo?si=gZNnWt0LrpoSxjl-
+```
+### Also, if the git is not clonable, you can download the files manually and run the file inside the folder of your path.
+```

@@ -42,10 +42,10 @@ dht_modules = [dht22_module_1, dht22_module_2, dht22_module_3, dht22_module_4, d
 This would add 3 more additional sensor on your web application  
 ```
 ###also pip install flask-cors on resberry pi
-```
+
 ### To auto-start this project  
 https://www.donskytech.com/raspberry-pi-how-to-start-python-script-on-boot/
-```
+
 ##To make this project remote 
 go to there- https://app.remote.it
 register your pi inside Raspberry pi by copy paste on the terminal
